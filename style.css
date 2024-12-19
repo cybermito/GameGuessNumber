@@ -1,0 +1,41 @@
+html {
+    font-family: monospace;
+}
+
+body {
+    background: black;
+    color: lightgreen;
+    width: 80%;
+    margin: 0 auto;
+}
+input {
+
+    margin: 1rem;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 5px;
+    color: lightgreen;
+    background: black;
+}
+
+.guessSubmit:hover{
+    cursor: pointer;
+    box-shadow: 2px 1px greenyellow;
+}
+
+.guessSubmit:active {
+    background: greenyellow;
+    color: black;
+}
+
+.form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lastResult {
+    color: white;
+    padding: 3px;
+}
